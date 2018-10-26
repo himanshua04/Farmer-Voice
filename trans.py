@@ -6,3 +6,4 @@ language_translator = LanguageTranslatorV2(
     password='{0TtwvNoKnSgb}',
     url='{https://gateway.watsonplatform.net/language-translator/api}'
 )
+#LanguageTranslatorV2 is not no longer exist in watson_developer_cloud :(
