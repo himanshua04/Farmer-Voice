@@ -6,6 +6,8 @@ def getSeason(date):
     elif now.month == 8:
         return "Rabi"
     else:
-        month = input("Enter the months")
+        month = int(input("Enter the month"))
+        while(month < 0 or month > 12):
+            month = int(input("Enter valid month"))
         return month
 getSeason(now)
